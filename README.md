@@ -24,9 +24,3 @@ Dự án được chia module độc lập để hạn chế tối đa việc co
 | **Vũ Hải Đường** | **Frontend Developer (Board UI)** | Code giao diện chính của bảng công việc (Board layout); Xử lý sự kiện kéo thả (Drag & Drop) hoặc nút chuyển trạng thái Task bằng JavaScript DOM. |
 | **Vũ Thị Lê Vy** | **Frontend Developer (Dashboard & API)**| Code giao diện Đăng nhập/Đăng ký, Trang chủ (Dashboard) quản lý các dự án; Gọi Fetch API để kết nối dữ liệu Frontend với Backend. |
 | **Phan Hoàng Lê VY** | **QA Tester & Backend (Extra)** | Viết Unit Test (JUnit/Mockito) cho các logic Backend phức tạp; Phát triển API tìm kiếm Task/Filter; Cập nhật tài liệu README & báo cáo. |
-
-## 🚀 Hướng dẫn cài đặt (Local Development)
-1. Clone repository: `git clone https://github.com/[username]/CSE392-Nhom01-TLU.git`
-2. Thiết lập cơ sở dữ liệu: Chạy file script `database.sql` trong thư mục `/db` vào MySQL.
-3. Cấu hình Backend: Mở project bằng IntelliJ/Eclipse, cập nhật `application.properties` (username/password MySQL). Chạy file `[Name]Application.java`.
-4. Cấu hình Frontend: Mở thư mục `/frontend` bằng VS Code, chạy qua Live Server để tránh lỗi CORS.
